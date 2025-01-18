@@ -2,8 +2,10 @@
 
 int main() {
     int a,b;
-    printf("","");
-    scanf("%d","%d",&a,&b);
+    printf("");
+    printf("")
+    scanf("%d",&a);
+    scanf("%d",&b);
     if(a>0 && b>0){
         printf("True");
     }
