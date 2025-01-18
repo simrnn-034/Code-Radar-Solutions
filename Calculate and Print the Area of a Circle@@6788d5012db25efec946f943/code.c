@@ -2,11 +2,10 @@
 
 int main() {
     float r;
-    float pi=3.14;
     float area;
-    area=pi*r*r;
     printf("");
     scanf("%f",&r);
+    area=3.14*r*r;
     printf("Area: %.2f",area);
     return 0;
 }
