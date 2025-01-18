@@ -7,7 +7,7 @@ int main() {
     scanf("%s",&a);
     printf("");
     scanf("%s",&b);
-    printf("You entered: %s and /n",a);
+    printf("You entered: %s and ",a);
     printf("%s",b);
     return 0;
 }
