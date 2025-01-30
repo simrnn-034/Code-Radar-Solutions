@@ -23,7 +23,8 @@ int main() {
             printf("Saturday");
             break;   
         default:
-            printf("Invalid");         
+            printf("Invalid"); 
+            break;        
     }
     return 0;
 }
