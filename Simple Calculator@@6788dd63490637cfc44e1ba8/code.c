@@ -17,12 +17,7 @@ int main() {
             printf("%d",a*b);
             break;
         case '/':
-          if(a>=b){
             printf("%d",a/b);
-            }
-          else{
-            printf("Invalid");
-          }  
             break; 
         default:
             printf("Invalid");
