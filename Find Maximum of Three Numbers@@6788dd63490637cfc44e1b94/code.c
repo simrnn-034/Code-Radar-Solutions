@@ -9,11 +9,9 @@ int main() {
     else if(b>c && b>a){
         printf("%d",b);
     }
-    else if(c>a && c>b){
-        printf("%d",c);
-    }
     else{
-        printf("invalid");
+        printf("%d",c)
     }
+    
     return 0;
 }
