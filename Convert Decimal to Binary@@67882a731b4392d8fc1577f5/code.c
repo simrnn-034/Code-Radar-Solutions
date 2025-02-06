@@ -10,6 +10,9 @@ int main() {
         else if(i<31 && (n>>(i+1))){
             printf("0");
         }
+        else if(n==0){
+            printf("0");
+        }
     }
     return 0;
 }
