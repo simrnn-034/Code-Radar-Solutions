@@ -1,10 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    for (int i = 31; i >= 0; i--) {
-        printf("%d", (num >> i) & 1);  
+    int n;
+    scanf("%d",&n);
+    for(int i=31;i>=0;i--){
+        if(n>>i & 1){
+            printf("1");
+        }
+        else if(i<31 && (n>>(i+1))){
+            printf("0");
+        }
     }
     return 0;
 }
