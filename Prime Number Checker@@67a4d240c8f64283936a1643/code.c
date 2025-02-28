@@ -1,5 +1,5 @@
 // Your code here...
-# include<stdio,h>
+# include<stdio.h>
 int main(){
     int t;
     scanf("%d",&t);
