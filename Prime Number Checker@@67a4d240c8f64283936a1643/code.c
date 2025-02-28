@@ -1,6 +1,6 @@
 // Your code here...
 # include<stdio.h>
-intisPrime(int num);
+int isPrime(int num);
 int main(){
     int t;
     scanf("%d",&t);
