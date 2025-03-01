@@ -3,16 +3,25 @@
 int sort(int arr[],int N);
 int main(){
     int N;
+    int arr[];
     scanf("%d",&N);
-    sort(arr [],N);
+    for(int i=1;i<=N;i++){
+        scanf("%d",&arr[i]);
+    }
+    if(sort(arr,n)){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
+    sort(arr,N);
     return 0;
 }
 int sort(int arr[],int N){
-    for(int i=1;i<=N;i++){
+    for(int i=1;i<=N-1;i++){
      if(arr[i]>arr[i+1]){
-        printf("Not Sorted");
+        return 0;
      }
-    printf("Sorted");
+    return 1;
     }
-    return 0;
-}
+    }
