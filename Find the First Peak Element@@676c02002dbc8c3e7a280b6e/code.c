@@ -26,7 +26,7 @@ void peak(int arr[],int N){
             return;
                              
         }
-        for(int i=1;i<=N-1;i++)
+        for(int i=1;i<N-1;i++)
             if((arr[i-1]<arr[i]) &&(arr[i]>arr[i+1])){
                printf("%d",arr[i]);
                return;
