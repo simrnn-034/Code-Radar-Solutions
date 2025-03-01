@@ -26,7 +26,8 @@ void peak(int arr[],int N){
         }
         
         else if(arr[0]>arr[1]){
-            printf("%d",arr[0]);  
+            printf("%d",arr[0]);
+            break;  
                    
         }
         
