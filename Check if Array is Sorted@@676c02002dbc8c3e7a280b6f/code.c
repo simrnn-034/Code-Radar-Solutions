@@ -8,7 +8,7 @@ int main(){
     for(int i=1;i<=N;i++){
         scanf("%d",&arr[i]);
     }
-    if(sort(arr,n)){
+    if(sort(arr,N)){
         printf("Sorted");
     }
     else{
