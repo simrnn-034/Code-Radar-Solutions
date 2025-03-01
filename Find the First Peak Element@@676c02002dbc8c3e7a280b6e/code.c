@@ -33,11 +33,9 @@ void peak(int arr[],int N){
             }
         else{
             printf("%d",a);
+            break;
         }
-
-
-        
-        }
+     }
 
         
     
