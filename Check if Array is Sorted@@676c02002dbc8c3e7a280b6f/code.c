@@ -3,7 +3,7 @@
 int sort(int arr[],int N);
 int main(){
     int N;
-    int arr[];
+    int arr[N];
     scanf("%d",&N);
     for(int i=1;i<=N;i++){
         scanf("%d",&arr[i]);
