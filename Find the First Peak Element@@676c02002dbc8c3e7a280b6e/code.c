@@ -22,10 +22,12 @@ void peak(int arr[],int N){
 
         else if(arr[N-1]>arr[N-2]){
             printf("%d",arr[N-1]);
+            break;
         }
         
         else if(arr[0]>arr[1]){
-            printf("%d",arr[0]);         
+            printf("%d",arr[0]);  
+            break;       
         }
         
         }
