@@ -5,7 +5,7 @@ int main(){
     int N;
     int arr[N];
     scanf("%d",&N);
-    for(int i=1;i<=N;i++){
+    for(int i=0;i<=N;i++){
         scanf("%d",&arr[i]);
     }
     peak(arr,N);
@@ -16,11 +16,13 @@ int main(){
 void peak(int arr[],int N){
         if(arr[N-1]>arr[N-2]){
             printf("%d",arr[N-1]);
+            return ;
                    
         }
         
-        else if(arr[0]>arr[1]){
+        if(arr[0]>arr[1]){
             printf("%d",arr[0]);
+            return;
                              
         }
     for(int i=1;i<=N-1;i++)
