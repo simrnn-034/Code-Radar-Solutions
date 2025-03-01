@@ -4,7 +4,7 @@ int sort(int arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
-    sort(arr [],k);
+    sort(int arr [],int N);
     return 0;
 }
 int sort(int arr[],int N){
