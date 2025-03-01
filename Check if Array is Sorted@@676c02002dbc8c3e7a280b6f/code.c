@@ -3,7 +3,7 @@
 int sort(int arr[],int N);
 int main(){
     int N;
-    scnaf("%d",&N);
+    scanf("%d",&N);
     sort(arr [],k);
     return 0;
 }
