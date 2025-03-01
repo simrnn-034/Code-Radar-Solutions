@@ -16,13 +16,12 @@ int main(){
 void peak(int arr[],int N){
         if(arr[N-1]>arr[N-2]){
             printf("%d",arr[N-1]);
-            break;            
+                   
         }
         
         else if(arr[0]>arr[1]){
             printf("%d",arr[0]);
-            break;  
-                   
+                             
         }
     for(int i=1;i<=N-1;i++)
         if((arr[i-1]<arr[i]) &&(arr[i]>arr[i+1])){
