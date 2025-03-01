@@ -15,12 +15,12 @@ int main(){
 
 void peak(int arr[],int N){
     for(int i=0;i<=N-1;i++)
-        else if((arr[i-1]<arr[i]) &&(arr[i]>arr[i+1])){
+        if((arr[i-1]<arr[i]) &&(arr[i]>arr[i+1])){
             printf("%d",arr[i]);
             break;
         }
 
-        elseif(arr[N-1]>arr[N-2]){
+        else if(arr[N-1]>arr[N-2]){
             printf("%d",arr[N-1]);
         }
         
