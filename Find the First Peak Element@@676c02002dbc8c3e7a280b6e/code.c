@@ -10,7 +10,7 @@ int main(){
     }
     peak(arr,N);
     return 0;
-    }
+}
 
 
 void peak(int arr[],int N){
