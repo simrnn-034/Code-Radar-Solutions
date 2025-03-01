@@ -18,13 +18,14 @@ void peak(int arr[],int N){
         if(arr[N-1]>arr[N-2]){
             printf("%d",arr[N-1]);
         }
-        }
+        
         else if(arr[0]>arr[1]){
             printf("%d",arr[0]);         
         }
         else if((arr[i-1]<arr[i]) &&(arr[i]>arr[i+1])){
             printf("%d",arr[i]);
             break;
+        }
 
         
     }
