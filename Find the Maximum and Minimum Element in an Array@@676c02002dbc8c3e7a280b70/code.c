@@ -7,9 +7,10 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<=N-1;i++){
-        scanf("%d",&arr[i])
+        scanf("%d",&arr[i]);
     }
     element(arr,N);
+    return 0;
 }
 
 void element(int arr[],int N){
