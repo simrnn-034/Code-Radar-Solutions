@@ -14,13 +14,17 @@ int main(){
     return 0;
 }
 void index(int arr[],int N){
+    int found=0;
 
     for(int i=0;i<=N-1;i++){
         if(T==arr[i]){
             printf("%d",i);
+            found=1;
         }
         
     }
-    printf("-1");
+    if(!found){
+      printf("-1");
+    }
     return ;
 }
