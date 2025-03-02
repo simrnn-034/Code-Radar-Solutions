@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<=N-1;i++){
         scanf("%d",&arr[i]);
     }
-    odd(arr,n);
+    odd(arr,N);
     return 0;
 }
 void odd(int arr[].int N){
