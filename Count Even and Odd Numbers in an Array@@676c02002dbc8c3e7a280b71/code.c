@@ -24,7 +24,7 @@ void odd(int arr[],int N){
         }
         
     }
+    printf("%d ",count_even);
     printf("%d",count_odd);
-    printf("%d",count_even);
     return;
 }
