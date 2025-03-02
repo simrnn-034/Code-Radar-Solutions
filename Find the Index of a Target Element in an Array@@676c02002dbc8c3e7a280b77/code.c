@@ -18,11 +18,13 @@ void findindex(int arr[],int N){
 
     for(int i=0;i<=N-1;i++){
         if(T==arr[i]){
+            printf("%d",i);
             found=1;
+            return;
         }
         
     }
-    printf("%d",i);
+    
     if(!found){
       printf("-1");
     }
