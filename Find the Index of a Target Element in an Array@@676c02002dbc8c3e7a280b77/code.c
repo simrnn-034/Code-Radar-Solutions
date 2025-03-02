@@ -19,7 +19,8 @@ void index(int arr[],int N){
         if(T==arr[i]){
             printf("%d",i);
         }
-        printf("-1");
+        
     }
+    printf("-1");
     return ;
 }
