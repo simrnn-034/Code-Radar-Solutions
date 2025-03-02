@@ -13,7 +13,7 @@ int main(){
 }
 void frequency(int arr[],int N){
     int a= arr[0];
-    int count;
+    int count=0;
     for(int i=1;i<=N-1;i++){
         if(a==arr[i]){
             count++;
