@@ -21,6 +21,7 @@ void frequency(int arr[],int N){
             printf("%d",count);
         }
     }
+    printf("\n");
     return;
 
 }
