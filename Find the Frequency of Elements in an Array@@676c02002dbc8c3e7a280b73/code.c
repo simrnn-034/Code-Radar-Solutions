@@ -1,6 +1,6 @@
 // Your code here...
 # include<stdio.h>
-void frequency(int arr[],int N;)
+void frequency(int arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
