@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-void index(int arr[],int N);
+void findindex(int arr[],int N);
 int T;
 int main(){
     int N;
@@ -10,10 +10,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&T);
-    index(arr,N);
+    findindex(arr,N);
     return 0;
 }
-void index(int arr[],int N){
+void findindex(int arr[],int N){
     int found=0;
 
     for(int i=0;i<=N-1;i++){
