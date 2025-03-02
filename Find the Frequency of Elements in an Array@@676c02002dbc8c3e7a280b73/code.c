@@ -17,7 +17,7 @@ void frequency(int arr[],int N){
     for(int i=1;i<=N-1;i++){
         if(a==arr[i]){
             count++;
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
             printf("%d",count);
         }
     }
