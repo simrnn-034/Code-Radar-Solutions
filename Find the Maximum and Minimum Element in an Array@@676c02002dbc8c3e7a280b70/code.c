@@ -19,7 +19,7 @@ void element(int arr[],int N){
     for(int i=0;i<=N-1;i++){
         if(arr[i]<arr[0]){
             min=arr[i];
-            printf("%d",min)
+            printf("%d",min);
         }
         if(arr[i]>arr[0]){
             max=arr[i];
