@@ -27,7 +27,7 @@ void element(int arr[],int N){
         }
 
     }
-     printf("%d",min);
+     printf("%d ",min);
      printf("%d",max);
     return;
 }
