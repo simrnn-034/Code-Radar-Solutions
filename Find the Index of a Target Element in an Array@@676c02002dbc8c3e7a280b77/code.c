@@ -26,5 +26,5 @@ void index(int arr[],int N){
     if(!found){
       printf("-1");
     }
-    return ;
+    
 }
