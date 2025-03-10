@@ -1,5 +1,5 @@
 // Your code here..
-.
+
 int fibonacciSeries(n){
     if(n==1){
         return 0;
