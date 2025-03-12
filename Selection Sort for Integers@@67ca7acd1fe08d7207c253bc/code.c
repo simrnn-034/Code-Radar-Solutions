@@ -7,10 +7,11 @@ void selectionSort(int arr[],int n){
             if(arr[min]>arr[j]){
                 min=j;
             }
-            int temp=arr[i];
+            
+        }
+        int temp=arr[i];
             arr[i]=arr[min];
             arr[min]=temp;
-        }
     }
     
 }
