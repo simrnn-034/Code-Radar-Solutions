@@ -5,18 +5,19 @@ void printPrimesInRange(int a,int b){
         if(i==1 || i==0){
             continue;        
         }
-         int isPrime=1; 
+        int isPrime; 
         for(int j=2;j*j<=i;j++){
             if(i%j==0){
                 isPrime=0;
                 break;
             }
             }
-            if(isPrime){
-                printf("%d ",i);
-            }
-            else {
-                printf("No prime numbers.");
-            }
+        if(isPrime){
+            printf("%d ",i);
+            isPrime=1;
+        }
+        else {
+            printf("No prime numbers.");
+        }
         }
     }
