@@ -12,7 +12,7 @@ int main(){
 }
 void second(int arr[],int N){
     int largest=arr[0];
-    int second= arr[0];
+    int second= -22223333344456567;
     for(int i=0;i<N;i++){
         if(arr[i]>largest){
             second=largest;
