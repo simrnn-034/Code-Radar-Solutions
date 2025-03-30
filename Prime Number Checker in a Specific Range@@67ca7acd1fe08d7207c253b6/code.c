@@ -20,4 +20,4 @@ void printPrimesInRange(int a,int b){
             printf("No prime numbers.");
         }
         }
-    }
+    
