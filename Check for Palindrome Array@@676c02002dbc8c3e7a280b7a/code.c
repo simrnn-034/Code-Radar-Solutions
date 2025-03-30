@@ -11,15 +11,16 @@ int main(){
     pali(arr,n);
 }
 void pali(int arr[],int n){
-    int paaaali=0;
-    for(int i=0;i<n;i++){
-        for(int j=n-1;j>0;j++){
-            if(arr[i]==arr[j]){
-                 paaaali=1;
-            }
+    int paaaali=1;
+    for(int i=0;i<(n/2);i++){
+        if(arr[i]!=arr[n-i-1]){
+            paaaali=0
         }
+    }
     }
     if(paaaali){
         printf("YES");
     }
-}
+    else{
+        printf("NO");
+    }
