@@ -1,13 +1,12 @@
 // Your code here...
 # include <stdio.h>
-# include <strlib.h>
 void second(int arr[],int N);
 int main(){
     int N;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
-        scanf("%d",abs(&arr[i]));
+        scanf("%d",(&arr[i]));
     }
     second(arr,N);
 }
