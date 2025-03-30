@@ -14,7 +14,7 @@ int main(){
 
 }
 int freq(int arr[],int n){
-    freq[10000]={0};
+    int freq[10000]={0};
     for(int i=0;i<n;i++){
         freq(arr[i])++
     }
