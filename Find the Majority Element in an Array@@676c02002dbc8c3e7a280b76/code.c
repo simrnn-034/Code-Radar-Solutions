@@ -25,5 +25,8 @@ int freq(int arr[],int n){
         else if(freq[arr[i]]<(n/2)){
             return -1;
         }
+        else if(fre[arr[i]]==(n/2)){
+            return -1;
+        }
     }
 }
