@@ -8,11 +8,11 @@ int binarySearch(int arr[],int n,int target){
         }
         else if(arr[mid]>target){
             high=mid-1;
-            return high;
+            
         }
         else if(target>arr[mid]){
             low=mid+1;
-            return low;
+            
         }
     return -1;
         
