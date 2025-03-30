@@ -1,6 +1,6 @@
 // Your code here...
 # include <stdio.h>
-void pali(int arr[],int n)
+void pali(int arr[],int n);
 int main(){
     int n;
     scanf("%d",&n);
