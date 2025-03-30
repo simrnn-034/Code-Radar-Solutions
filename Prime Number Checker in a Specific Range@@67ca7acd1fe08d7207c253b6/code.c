@@ -1,6 +1,8 @@
 // Your code here...
-void printPrimesInRange(int a,int b){  
-    
+void printPrimesInRange(int a,int b){ 
+    if(a==1){
+        continue;
+    }    
     for(int i=a;i<=b;i++){
          int isPrime=1; 
         for(int j=2;j*j<=i;j++){
