@@ -8,6 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
+    int a;
     a=freq(arr,n);
     printf("%d",a);
 
