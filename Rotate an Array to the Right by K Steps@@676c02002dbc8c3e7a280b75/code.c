@@ -16,6 +16,7 @@ int main(){
     }
 }
 void rotate(int arr[],int n,int k){
+    k=k%n;
     int temp;
     for(int i=0;i<(n/2);i++){
         temp=arr[i];
