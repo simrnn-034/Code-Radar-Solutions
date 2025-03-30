@@ -28,7 +28,7 @@ void rotate(int arr[],int N,int K){
         arr[i]=arr[N-i+K-1];
         arr[N-i+K-1]=temp;
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         printf("%d",arr[i]);
     }
 }
