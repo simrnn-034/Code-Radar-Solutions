@@ -1,5 +1,7 @@
 // Your code here...
 # include <stdio.h>
+void rotate(int arr[],int N,int K);
+
 int main(){
     int N;
     scanf("%d",&N);
