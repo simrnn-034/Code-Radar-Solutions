@@ -24,24 +24,4 @@ void printArray(char arr[][100], int n) {
     }
 }
 
-int main() {
-    int n;
-    printf("Enter number of strings: ");
-    scanf("%d", &n);
-    getchar(); // Clear the newline character from the buffer
 
-    char arr[n][100]; // Array to hold strings
-
-    printf("Enter the strings:\n");
-    for (int i = 0; i < n; ++i) {
-        fgets(arr[i], sizeof(arr[i]), stdin);
-        arr[i][strcspn(arr[i], "\n")] = '\0'; // Remove trailing newline
-    }
-
-    // Sort the strings and print them
-    bubbleSort(arr, n);
-    printf("\nSorted Strings:\n");
-    printArray(arr, n);
-
-    return 0;
-}
