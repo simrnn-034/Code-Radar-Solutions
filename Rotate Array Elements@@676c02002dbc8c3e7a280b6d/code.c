@@ -1,37 +1,35 @@
-// Your code here...
 # include <stdio.h>
-void rotate(int arr[],int N,int K);
-
 int main(){
     int N;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[N]);
     }
     int K;
     scanf("%d",&K);
     rotate(arr,N,K);
-    for(int i=0;i<N;i++){
-        printf("%d\n",arr[i]);
-    }
 }
 void rotate(int arr[],int N,int K){
     int temp;
-    for(int i=0;i<N;i++){
-        if(arr[i]==arr[N-1]){
-            arr[N-K]=arr[N-1];
-        }
-        else if(arr[i-1]==arr[N-2]){
-            arr[N-K]=arr[N-2];
-        }
+    for(int i=0;i<N/2;i++){
+        temp=arr[i];
+        arr[i]=arr[N-i-1];
+        arr[N-i-1]=temp;        
     }
-    for(int j=0;j<N-K;j++){
-       arr[j+K]=arr[j];
+    for(int i=0;i<K/2;i++){
+        temp=arr[i];
+        arr[i]=arr[K-i-1];
+        arr[K-i-1]=temp;
     }
-    
-
+    for(int i=0;i<(N+K)/2;i++){
+        temp=arr[i];
+        arr[i]=arr[N-i+K-1];
+        arr[N-i+K-1]=temp;
     }
-
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+}
 
 
