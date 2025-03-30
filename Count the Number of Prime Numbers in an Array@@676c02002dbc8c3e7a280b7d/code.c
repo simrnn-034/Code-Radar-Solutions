@@ -19,9 +19,9 @@ void primecheck(int arr[],int n){
             if((arr[i])%j==0){
                 count_not++;                
             }
-            else[
+            else{
                 count++;
-            ]
+            }
         }
     }
     printf("%d",count);
