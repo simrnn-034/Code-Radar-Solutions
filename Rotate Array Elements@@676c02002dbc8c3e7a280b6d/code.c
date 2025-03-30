@@ -33,5 +33,5 @@ void rotate(int arr[],int N,int K){
 
     }
 
-}
+
 
