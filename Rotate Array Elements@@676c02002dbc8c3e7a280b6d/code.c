@@ -4,13 +4,18 @@ int main(){
     int N;
     scanf("%d",&N);
     int arr[N];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
     int K;
     scanf("%d",&K);
+    int result;
+    rotate(arr[],N,K);
+    for(int i=0;i<N;i++){
+        printf("%d\n",arr[i]);
+    }
 }
-int rotate(int arr[],int N,int K){
+void rotate(int arr[],int N,int K){
     int temp;
     for(int i=0;i<N;i++){
         if(arr[i]==arr[N-1]){
