@@ -23,7 +23,7 @@ void rotate(int arr[],int N,int K){
         arr[i]=arr[K-i-1];
         arr[K-i-1]=temp;
     }
-    for(int i=0;i<(N-K)/2;i++){
+    for(int i=K;i<(N+K)/2;i++){
         temp=arr[i];
         arr[i]=arr[N-i+K-1];
         arr[N-i+K-1]=temp;
