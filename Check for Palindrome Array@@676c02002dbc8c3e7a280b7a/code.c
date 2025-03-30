@@ -14,7 +14,7 @@ void pali(int arr[],int n){
     int paaaali=1;
     for(int i=0;i<(n/2);i++){
         if(arr[i]!=arr[n-i-1]){
-            paaaali=0
+            paaaali=0;
         }
     }
     }
