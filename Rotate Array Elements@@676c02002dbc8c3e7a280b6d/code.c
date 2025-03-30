@@ -9,7 +9,6 @@ int main(){
     }
     int K;
     scanf("%d",&K);
-    int result;
     rotate(arr[],N,K);
     for(int i=0;i<N;i++){
         printf("%d\n",arr[i]);
