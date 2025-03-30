@@ -17,10 +17,11 @@ void pali(int arr[],int n){
             paaaali=0;
         }
     }
-    }
+    
     if(paaaali){
         printf("YES");
     }
     else{
         printf("NO");
     }
+}
