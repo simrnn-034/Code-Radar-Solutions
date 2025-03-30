@@ -21,7 +21,7 @@ void primecheck(int arr[],int n){
             isPrime=0;
         }
         for(int j=2;j*j<=i;j++){
-            if((arr[i])%j==0){
+            if(num%j==0){
                 isPrime=0;                
             }
             
