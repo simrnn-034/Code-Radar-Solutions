@@ -9,7 +9,7 @@ int main(){
         scanf("%d",arr[i]);
     }
     a=freq(arr,n);
-    printf("%d",freq);
+    printf("%d",a);
 
 }
 int freq(int arr[],int n){
