@@ -21,6 +21,9 @@ void second(int arr[],int N){
         else if(arr[i]>second && arr[i]!=largest){
             second=arr[i];
         }
+        else{
+            printf("-1");
+        }
     }
     printf("%d",second);
 }
